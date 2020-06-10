@@ -1,0 +1,41 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px;
+  border: 1px solid #333;
+  display: table;
+}
+
+ul li {
+  display: table-row;
+}
+
+ul li span {
+  padding: 10px;
+  display: table-cell;
+  border-right: 1px solid #333;
+  border-bottom: 1px solid #333;
+}
+
+ul li.head {
+  font-weight: bold;
+  text-align: center;
+}
+
+ul li.head span {
+  white-space: nowrap;
+}
+
+.form {
+  display: table;
+  padding: 20px;
+}
+
+.form div {
+  display: table-row;
+  margin-bottom: 10px;
+}
+
+.form div label {
+  display: table-cell;
+}
